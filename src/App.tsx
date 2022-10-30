@@ -3,7 +3,7 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 
 function App() {
-  const [candidates, setCandidates] = useState([]);
+  const [candidates, setCandidates] = useState<any[]>([]);
 
   useEffect(() => {
     fetch(
